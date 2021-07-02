@@ -1,3 +1,4 @@
+package javabootcampweek1;
 import java.util.Scanner;
 
 public class LetterGrade{
