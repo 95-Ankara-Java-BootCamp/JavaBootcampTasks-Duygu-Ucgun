@@ -1,16 +1,17 @@
-package javabootcampweek1;
+import java.util.Scanner;
+
 public class LetterGrade{
     public static void main(String [] args){
-        int vize, final;
+        int vize_notu, final_notu;
         double sonuc; 
         Scanner scan= new Scanner (System.in);
         System.out.println ("Vize Notunuzu Giriniz:");
-        vize=scan.nextInt();
+        vize_notu=scan.nextInt();
 
         System.out.println ("Final Notunuzu Giriniz:");
-        final=scan.nextInt();
+        final_notu=scan.nextInt();
 
-        sonuc=(vize*0.40 + final*0.60) ; //Vize notunun %40'ı Final notunun %60'ı alınır ve ortalama hesaplanır. //
+        sonuc=(vize_notu*0.40 + final_notu*0.60) ; //Vize notunun %40'ı Final notunun %60'ı alınır ve ortalama hesaplanır. //
         System.out.println ("Ders Notunuz: " + sonuc);
 
         if (sonuc>85){ //85 ve üstü AA//
